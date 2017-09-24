@@ -28,9 +28,7 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by fitting the lines which is found in previous process.
 At the fitting step, I divided the lines into two groups according to the sign of slope to seperate right and left line.
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
-![alt text][image1]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
